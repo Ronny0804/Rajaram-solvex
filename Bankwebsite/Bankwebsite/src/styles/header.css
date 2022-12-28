@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 1px 5px #ababab;
+    margin-bottom: 3rem;
+}
+nav .nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+   
+}
+nav .nav-links li{
+    margin: 0 20px;
+    color:#5e45c8;
+}
+nav .logo span{
+    color:#5e45c8;
+}
+.profile-icon{
+    width: 60px;
+    height: 60px;
+    background: #5e45c8;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.buttons a{
+    text-decoration: none;
+}
